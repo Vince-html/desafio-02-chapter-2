@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div<ContainerProps>`
   display: flex;
   align-items: center;
 
@@ -20,6 +20,7 @@ export const Container = styled.div`
     font-size: 36px;
     line-height: 36px;
   }
+  
 
   ${props =>
     props.isFocused &&
@@ -49,3 +50,9 @@ export const Container = styled.div`
     margin-right: 16px;
   }
 `;
+
+
+interface ContainerProps {
+  isFilled: boolean;
+  isFocused: boolean;
+}
