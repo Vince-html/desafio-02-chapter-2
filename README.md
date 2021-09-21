@@ -35,10 +35,10 @@ Logo abaixo imagem do antes e depois do código do Dashboard.
  - React-Modal
 
 ### Para a instalação 
-Copie o repositório com o git clone #url;
-Apos isso execute **yarn** para instalação das dependências;
-E então de um **yarn start** para a aplicação rodar no seu Navegador;
-Não esqueça do **yarn server** para iniciar a fakeApi;
+Copie o repositório com o git clone #url; <br>
+Apos isso execute **yarn** para instalação das dependências; <br>
+E então de um **yarn start** para a aplicação rodar no seu Navegador; <br>
+Não esqueça do **yarn server** para iniciar a fakeApi;<br>
 
 ### Prints da Aplicação
 Todo o layout foi feito pela @RocketSeat 
